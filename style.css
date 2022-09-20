@@ -13,7 +13,7 @@
     color: var(--first-color);
     padding: 2rem;
 }
-.body{
+body{
     margin: 0;
     background-color: var(--first-color);
 }
@@ -40,4 +40,34 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     text-align: center;
     margin: .7rem;
     width: 10rem;
+    height: 1.5rem;
+}
+.submit{
+    width:5rem;
+    border: 3px solid var(--primary-color);
+    border-radius: .5rem;
+    margin-top: 2rem;
+    color: var(--second-color);
+    padding: .5rem;
+    font-weight: bold;
+    background-color: var(--first-color);
+}
+.submit:hover{
+    width:5rem;
+    border: 3px solid var(--second-color);
+    border-radius: .5rem;
+    margin-top: 2rem;
+    color: var(--first-color);
+    padding: .5rem;
+    font-weight: bold;
+    background-color: var(--primary-color);
+}
+.output{
+    
+text-align: center;
+margin: .7rem;
+color: var(--second-color);
+font-weight: bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
