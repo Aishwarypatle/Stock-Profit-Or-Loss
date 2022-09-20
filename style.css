@@ -1,0 +1,43 @@
+:root{
+    --primary-color:#8758FF;
+    --first-color:#FBF2CF;
+    --second-color:#16213E;
+}
+
+.nav{
+    background-color: var(--primary-color);
+    font-style: italic;
+    font-family: cursive;
+    text-align: center;
+    font-weight: bold;
+    color: var(--first-color);
+    padding: 2rem;
+}
+.body{
+    margin: 0;
+    background-color: var(--first-color);
+}
+
+h2{
+    text-align: center;
+    font-size:1.5rem;
+    font-family:'Courier New', Courier, monospace;
+    margin: 3rem;
+    color: var(--second-color);
+}
+.container{
+    display: grid;
+    justify-content: center;
+}
+label{
+text-align: center;
+margin: .7rem;
+color: var(--second-color);
+font-weight: bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input{
+    text-align: center;
+    margin: .7rem;
+    width: 10rem;
+}
