@@ -18,13 +18,13 @@ function calculate()
         {
             let profit = (sp-cp)*quan;
             let profitPerecent = ((sp-cp)/cp)*100;
-            showOutput(`Huray ! You Have profit of ${profit} and the Profit Percentage are ${profitPerecent}`);
+            showOutput(`Huray ! You Have profit of ${profit} and the Profit Percentage are ${profitPerecent.toFixed(2)}% 😋`);
         }
         else if(cp>sp)
         {
             let loss = (cp-sp)*quan;
             let lossPerecent = ((cp-sp)/cp)*100;
-            showOutput(`Ohh ! You have loss of ${loss} and the loss perecnetage are ${lossPerecent}`);
+            showOutput(`Ohh ! You have loss of ${loss} and the loss perecnetage are ${lossPerecent.toFixed(2)%} 😥`);
         }
         else
         {
