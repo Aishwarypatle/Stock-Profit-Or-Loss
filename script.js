@@ -24,7 +24,7 @@ function calculate()
         {
             let loss = (cp-sp)*quan;
             let lossPerecent = ((cp-sp)/cp)*100;
-            showOutput(`Ohh ! You have loss of ${loss} and the loss perecnetage are ${lossPerecent.toFixed(2)%} 😥`);
+            showOutput(`Ohh ! You have loss of ${loss} and the loss perecnetage are ${lossPerecent.toFixed(2)}% 😥`);
         }
         else
         {
